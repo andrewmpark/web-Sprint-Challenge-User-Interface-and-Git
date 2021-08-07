@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    max: width 100%;;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -131,12 +132,73 @@ footer {
     background: black;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+
+
+nav {
+    display:flex;
+    justify-content:space-evenly;
+    margin:2% 15%;
+    padding-bottom:1%;
+}
+
+nav a{
+    color: black;
+    margin:0% 3%;
+    padding-top:3%;
+    text-decoration:none;
+}
+
+.headerImg {
+    max-width:100%;
+    display:flex;
+    justify-content:center;
+    padding-bottom:2%;
+}
+
+.middle-content .boxes .box1 {
+    background-color:teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color:gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color:coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color:crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color:indigo;
+}
+.middle-content .boxes .box10 {
+    background-color:dodgerblue;
+}
+
+.footerNav{
+    width: 100%;
+    display:flex;
+    justify-content:flex-start;
+    padding:3% 2%;
     font-size: 14px;
 }
 
